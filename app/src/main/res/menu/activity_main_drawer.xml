@@ -1,0 +1,48 @@
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+<group android:checkableBehavior="single">
+<item
+android:id="@+id/nav_debashis"
+android:icon="@drawable/ic_dashboard"
+android:title="ALL" />
+<item
+android:id="@+id/nav_naresh"
+android:icon="@drawable/ic_event"
+android:title="DEKUSAHI" />
+<item
+android:id="@+id/nav_suresh"
+android:icon="@drawable/ic_headset"
+android:title="SUNAPUR" />
+<item
+android:id="@+id/nav_father"
+android:icon="@drawable/ic_forum"
+android:title="R.NUASAHI" />
+
+
+<item
+android:id="@+id/nav_mother"
+android:icon="@drawable/ic_dashboard"
+android:title="Mother /   [+91 80938 XXXX]" />
+<item
+android:id="@+id/nav_family"
+android:icon="@drawable/ic_event"
+android:title="Family" />
+
+</group>
+
+<item android:title="Sub items">
+<menu>
+<item
+android:id="@+id/nav_one"
+android:icon="@drawable/ic_dashboard"
+android:title="Sub item 1" />
+<item
+android:id="@+id/nav_two"
+android:icon="@drawable/ic_forum"
+android:title="Sub item 2" />
+</menu>
+</item>
+
+</menu>

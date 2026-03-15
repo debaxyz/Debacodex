@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_gravity="top|center"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item_profile_picture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="top|center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="100dp"
+                app:cardElevation="2dp" >
+
+                <ImageView
+                    android:id="@+id/detail_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_done" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Detail Item Title"
+                android:textColor="@color/nav_text_colors"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/detail_rice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/detail_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/detail_things"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/detail_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a..."
+                android:textColor="@color/nav_text_colors"
+                android:textSize="16sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/detail_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

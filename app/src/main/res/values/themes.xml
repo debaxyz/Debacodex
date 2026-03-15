@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <!-- Status bar color. -->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionOverflowMenuStyle">@style/PopupMenuStyle</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@drawable/selector_text_input_stroke</item>
+        <item name="hintTextColor">@color/magic_indicator_text</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="boxStrokeWidth">1dp</item>
+        
+        <item name="boxCornerRadiusTopStart">3dp</item>
+        <item name="boxCornerRadiusTopEnd">3dp</item>
+        <item name="boxCornerRadiusBottomStart">3dp</item>
+        <item name="boxCornerRadiusBottomEnd">3dp</item>
+       
+    </style>
+
+    <style name="MyTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="android:textColor">@color/magic_indicator_text</item>
+        <item name="android:padding">16dp</item>
+        
+    </style>
+
+
+    <!-- Popup menu style -->
+    <style name="PopupMenuStyle" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_menu_radius</item>
+        <item name="android:dropDownHorizontalOffset">4dp</item> <!-- Horizontal offset -->
+        <item name="android:dropDownVerticalOffset">4dp</item> <!-- Vertical offset -->
+
+
+        <!-- Set width and height -->
+
+    </style>
+
+    <!-- Popup theme for menu items -->
+    <style name="PopupTheme" parent="ThemeOverlay.MaterialComponents">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:maxWidth">0dp</item>
+        <item name="android:textColor">@color/magic_indicator_text</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:indeterminateTint">@color/colorAccent</item>
+    </style>
+
+    <!-- Dialog animation -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+  <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">30dp</item>
+    
+</style>
+</resources>

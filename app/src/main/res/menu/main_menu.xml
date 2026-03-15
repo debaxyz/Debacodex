@@ -1,0 +1,24 @@
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+android:id="@+id/action_search"
+android:title="Search"
+android:icon="@drawable/google"
+
+app:showAsAction="ifRoom"/>
+
+<item android:id="@+id/code"
+android:contentDescription="content_description_search"
+android:title="Open source code"
+app:showAsAction="never"/>
+<item android:id="@+id/about"
+android:contentDescription="content_description_favorite"
+android:title="About"
+app:showAsAction="never"/>
+<item android:id="@+id/exit"
+android:contentDescription="content_description_more"
+android:title="Exit"
+app:showAsAction="never"/>
+</menu>

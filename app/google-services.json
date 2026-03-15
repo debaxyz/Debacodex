@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699496540683",
+    "project_id": "debacodex",
+    "storage_bucket": "debacodex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699496540683:android:317e29b500c8c12e92f50e",
+        "android_client_info": {
+          "package_name": "com.github.debacodex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB09g9rR1sEykKMM7K_G-ZygR_Ljf6zpHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
